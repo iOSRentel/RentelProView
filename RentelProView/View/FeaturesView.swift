@@ -9,16 +9,6 @@ import Foundation
 import SwiftUI
 
 struct FeaturesView: View {
-    
-    let features: [String] = [
-        "Premium support",
-        "NFC Reader",
-        "Integration API",
-        "Download menu.json",
-        "Device BLE connection",
-        "Cloud storrage 1GB"
-    ]
-    
     var body: some View {
         ScrollView(.vertical){
             ForEach(features, id: \.self) { feature in

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665B1C0B26E6373B00E89AC3 /* FeauturesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B1C0A26E6373B00E89AC3 /* FeauturesModel.swift */; };
 		666E07E426E5584D0046CD20 /* RentelProViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E07E326E5584D0046CD20 /* RentelProViewApp.swift */; };
 		666E07E626E5584D0046CD20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E07E526E5584D0046CD20 /* ContentView.swift */; };
 		666E07E826E5584E0046CD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666E07E726E5584E0046CD20 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		665B1C0A26E6373B00E89AC3 /* FeauturesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeauturesModel.swift; sourceTree = "<group>"; };
 		666E07E026E5584D0046CD20 /* RentelProView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentelProView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666E07E326E5584D0046CD20 /* RentelProViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentelProViewApp.swift; sourceTree = "<group>"; };
 		666E07E526E5584D0046CD20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		665B1C0926E6372600E89AC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665B1C0A26E6373B00E89AC3 /* FeauturesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		666E07D726E5584D0046CD20 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 				666E07E526E5584D0046CD20 /* ContentView.swift */,
 				666E07E726E5584E0046CD20 /* Assets.xcassets */,
 				666E07EC26E5584E0046CD20 /* Info.plist */,
+				665B1C0926E6372600E89AC3 /* Model */,
 				666E07F226E559B40046CD20 /* View */,
 				666E07E926E5584E0046CD20 /* Preview Content */,
 			);
@@ -158,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665B1C0B26E6373B00E89AC3 /* FeauturesModel.swift in Sources */,
 				666E07F626E55C950046CD20 /* HeaderLabelsView.swift in Sources */,
 				666E07E626E5584D0046CD20 /* ContentView.swift in Sources */,
 				666E07F426E559C40046CD20 /* LogoView.swift in Sources */,
